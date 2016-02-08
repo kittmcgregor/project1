@@ -1,0 +1,81 @@
+
+.formGroup{
+    padding: 0.5em 0;
+
+}
+
+.formGroup label{
+    display: block;
+    width: 40%;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+    padding-right:1em;
+    box-sizing:border-box; /*for fixing wee alignment*/
+}
+
+.formGroup label span{
+    display: block;
+    font-weight: normal;
+    color: gray;
+    font-size: 0.7em;
+
+}
+
+.formGroup input{
+    display: block;
+    width: 40%;
+    float: left;
+    height: 1.5em;
+
+}
+
+.formGroup:after{
+
+    content: "";
+    display: block; 
+    clear:both;
+}
+
+.formGroup.buttonGroup{
+    padding-left: 40%;
+}
+
+.formGroup.buttonGroup input{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+/*modal styling*/
+
+.contactForm{
+    width: 70%;
+    max-width: 40em;
+    text-transform: uppercase;
+    background-color: white;
+    margin: 5em auto;
+    padding: 2em;
+    border-radius: 0.2em;
+    border:thin #eee solid;
+}
+
+.contactForm .message{
+    color: red;
+    padding-left: 1em;
+    font-size: 0.7em;
+}
+
+.container{
+    min-height: 100vh;
+    border-bottom: thin transparent solid;
+}
+.container:nth-child(odd){
+    background-color: rgba(255,0,0,0.1);
+}
+
+h1 {
+	display: inline-block;
+}
